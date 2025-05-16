@@ -39,6 +39,10 @@ USERNAME = os.getenv('DB_USERNAME')
 PASSWORD = os.getenv('DB_PASSWORD')
 
 def enviar_email(subject, body):
+    if os.getenv('EMAIL_ENABLED', 'false').lower() != 'true':
+        logger.info("Envio de e-mail está desativado via EMAIL_ENABLED=false.")
+        return
+
     try:
         from_email = os.getenv('EMAIL_FROM')
         to_email = os.getenv('EMAIL_TO')
@@ -57,11 +61,8 @@ def enviar_email(subject, body):
             logger.error(f"Porta SMTP inválida: {smtp_port}")
             return
 
-        subject = subject or ""
-        body = body or ""
-
-        msg = MIMEText(body, 'plain', 'utf-8')
-        msg['Subject'] = subject
+        msg = MIMEText(body or "", 'plain', 'utf-8')
+        msg['Subject'] = subject or ""
         msg['From'] = from_email
         msg['To'] = to_email
 

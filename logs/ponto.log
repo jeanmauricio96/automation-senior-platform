@@ -105,3 +105,21 @@
 2025-05-16 11:46:38,437 - INFO - 2025-05-16 - O ponto de hoje já foi registrado.
 2025-05-16 11:46:41,381 - INFO - E-mail enviado com sucesso.
 2025-05-16 11:46:43,510 - INFO - Tempo total de execução: 55.38 segundos
+2025-05-16 15:14:26,658 - INFO - 1. Configurando o navegador
+2025-05-16 15:14:28,030 - INFO - 2. Acessando plataforma
+2025-05-16 15:14:30,032 - INFO - 3. Adicionando o E-mail
+2025-05-16 15:14:33,171 - INFO - 4. Adicionando a Senha
+2025-05-16 15:14:36,291 - INFO - 5. Acessando a pagina de marcações do Sênior
+2025-05-16 15:14:46,312 - INFO - 6. Buscando o campo para marcação
+2025-05-16 15:15:16,758 - INFO - 2025-05-16 - O ponto de hoje já foi registrado.
+2025-05-16 15:15:16,758 - INFO - Envio de e-mail está desativado via EMAIL_ENABLED=false.
+2025-05-16 15:15:18,883 - INFO - Tempo total de execução: 52.22 segundos
+2025-05-16 15:15:44,645 - INFO - 1. Configurando o navegador
+2025-05-16 15:15:45,975 - INFO - 2. Acessando plataforma
+2025-05-16 15:15:47,895 - INFO - 3. Adicionando o E-mail
+2025-05-16 15:15:51,018 - INFO - 4. Adicionando a Senha
+2025-05-16 15:15:54,115 - INFO - 5. Acessando a pagina de marcações do Sênior
+2025-05-16 15:16:04,131 - INFO - 6. Buscando o campo para marcação
+2025-05-16 15:16:34,625 - INFO - 2025-05-16 - O ponto de hoje já foi registrado.
+2025-05-16 15:16:37,743 - INFO - E-mail enviado com sucesso.
+2025-05-16 15:16:39,897 - INFO - Tempo total de execução: 55.25 segundos
