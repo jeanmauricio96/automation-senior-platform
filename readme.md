@@ -136,6 +136,25 @@ O script abrirá o navegador, fará o login na plataforma Senior e preencherá o
 
 ---
 
+## ✅ Como importar no Agendador de Tarefas:
+
+Nome arquivo: automacaoPonto.xml
+
+### Substitua os seguintes valores no XML:
+
+| Campo                      | Descrição                                                  |
+|---------------------------|------------------------------------------------------------|
+| `C:\CAMINHO\PARA\SEU\SCRIPT\executa.bat` | Caminho onde está o script `executa.bat`                       |
+| `C:\CAMINHO\PARA\SEU\SCRIPT` | Caminho onde está o script `main.py`                       |
+| `SEU_USUARIO_WINDOWS`     | Nome de usuário do Windows que executará a tarefa          |
+
+1. Abra o Agendador de Tarefas.
+2. Clique em "Importar Tarefa..." no menu lateral direito.
+3. Selecione o arquivo AutomacaoPonto.xml.
+4. Ajuste o usuário que executará a tarefa (caso necessário).
+5. Salve.
+
+---
 ## Observações importantes
 
 * Nunca compartilhe o arquivo `.env` para proteger suas credenciais.
