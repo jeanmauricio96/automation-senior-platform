@@ -1,0 +1,107 @@
+2025-05-16 11:11:12,310 - INFO - Configurando o navegador
+2025-05-16 11:12:02,883 - INFO - 2025-05-16 - O ponto de hoje j� foi registrado.
+2025-05-16 11:12:05,260 - ERROR - Erro ao enviar e-mail: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 71dfb90a1353d-52dbab6b275sm1842481e0c.39 - gsmtp')
+2025-05-16 11:12:11,490 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B21868C190>: Failed to establish a new connection: [WinError 10061] Nenhuma conex�o p�de ser feita porque a m�quina de destino as recusou ativamente')': /session/ae56e8038d8c0776fbff872189f6389d
+2025-05-16 11:12:15,575 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B21868C410>: Failed to establish a new connection: [WinError 10061] Nenhuma conex�o p�de ser feita porque a m�quina de destino as recusou ativamente')': /session/ae56e8038d8c0776fbff872189f6389d
+2025-05-16 11:12:19,674 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2184EEB10>: Failed to establish a new connection: [WinError 10061] Nenhuma conex�o p�de ser feita porque a m�quina de destino as recusou ativamente')': /session/ae56e8038d8c0776fbff872189f6389d
+2025-05-16 11:15:13,929 - INFO - Configurando o navegador
+2025-05-16 11:16:04,852 - INFO - 2025-05-16 - O ponto de hoje j� foi registrado.
+2025-05-16 11:16:06,943 - ERROR - Erro ao enviar e-mail: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 71dfb90a1353d-52dbab6c0f1sm1855862e0c.41 - gsmtp')
+2025-05-16 11:16:13,173 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002086D25C2D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conex�o p�de ser feita porque a m�quina de destino as recusou ativamente')': /session/4596ed6e13ffc0c8b1a2cc226077c692
+2025-05-16 11:16:17,253 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002086D25C550>: Failed to establish a new connection: [WinError 10061] Nenhuma conex�o p�de ser feita porque a m�quina de destino as recusou ativamente')': /session/4596ed6e13ffc0c8b1a2cc226077c692
+2025-05-16 11:16:21,320 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002086D08E3F0>: Failed to establish a new connection: [WinError 10061] Nenhuma conex�o p�de ser feita porque a m�quina de destino as recusou ativamente')': /session/4596ed6e13ffc0c8b1a2cc226077c692
+2025-05-16 11:19:48,947 - INFO - Configurando o navegador
+2025-05-16 11:20:38,889 - INFO - 2025-05-16 - O ponto de hoje j� foi registrado.
+2025-05-16 11:20:41,114 - ERROR - Erro ao enviar e-mail: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ada2fe7eead31-4dfa64aa8f5sm1835107137.0 - gsmtp')
+2025-05-16 11:20:47,306 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E3752EC2D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conex�o p�de ser feita porque a m�quina de destino as recusou ativamente')': /session/68fdaa4ceb1f172571232e60b68f054f
+2025-05-16 11:20:51,375 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E3752EC550>: Failed to establish a new connection: [WinError 10061] Nenhuma conex�o p�de ser feita porque a m�quina de destino as recusou ativamente')': /session/68fdaa4ceb1f172571232e60b68f054f
+2025-05-16 11:20:55,445 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E37514E3F0>: Failed to establish a new connection: [WinError 10061] Nenhuma conex�o p�de ser feita porque a m�quina de destino as recusou ativamente')': /session/68fdaa4ceb1f172571232e60b68f054f
+2025-05-16 11:22:23,876 - INFO - Configurando o navegador
+2025-05-16 11:23:14,924 - INFO - 2025-05-16 - O ponto de hoje j� foi registrado.
+2025-05-16 11:23:24,102 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020B46F1FB10>: Failed to establish a new connection: [WinError 10061] Nenhuma conex�o p�de ser feita porque a m�quina de destino as recusou ativamente')': /session/0e98e70c28c4ae34d3ce6dc5b2529b3d
+2025-05-16 11:23:28,171 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020B4700C2D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conex�o p�de ser feita porque a m�quina de destino as recusou ativamente')': /session/0e98e70c28c4ae34d3ce6dc5b2529b3d
+2025-05-16 11:23:32,271 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020B46F0E3F0>: Failed to establish a new connection: [WinError 10061] Nenhuma conex�o p�de ser feita porque a m�quina de destino as recusou ativamente')': /session/0e98e70c28c4ae34d3ce6dc5b2529b3d
+2025-05-16 11:27:07,865 - INFO - 1. Configurando o navegador
+2025-05-16 11:27:09,210 - INFO - 2. Acessando plataforma
+2025-05-16 11:27:11,080 - INFO - 3. Adicionando o E-mail
+2025-05-16 11:27:14,205 - INFO - 4. Adicionando a Senha
+2025-05-16 11:27:17,294 - INFO - 5. Acessando a pagina de marcações do Sênior
+2025-05-16 11:27:27,307 - INFO - 6. Buscando o campo para marcação
+2025-05-16 11:27:57,476 - INFO - 2025-05-16 - O ponto de hoje já foi registrado.
+2025-05-16 11:27:59,047 - ERROR - Erro ao enviar e-mail: 'NoneType' object has no attribute 'encode'
+2025-05-16 11:28:01,147 - INFO - Tempo total de execução: 53.28 segundos
+2025-05-16 11:31:28,795 - INFO - 1. Configurando o navegador
+2025-05-16 11:31:30,550 - INFO - 2. Acessando plataforma
+2025-05-16 11:31:32,516 - INFO - 3. Adicionando o E-mail
+2025-05-16 11:31:35,651 - INFO - 4. Adicionando a Senha
+2025-05-16 11:31:38,746 - INFO - 5. Acessando a pagina de marcações do Sênior
+2025-05-16 11:31:48,760 - INFO - 6. Buscando o campo para marcação
+2025-05-16 11:32:19,092 - INFO - 2025-05-16 - O ponto de hoje já foi registrado.
+2025-05-16 11:32:19,093 - ERROR - Variáveis de ambiente para envio de e-mail estão incompletas.
+2025-05-16 11:32:21,239 - INFO - Tempo total de execução: 52.44 segundos
+2025-05-16 11:32:21,596 - INFO - 1. Configurando o navegador
+2025-05-16 11:32:22,905 - INFO - 2. Acessando plataforma
+2025-05-16 11:32:24,743 - INFO - 3. Adicionando o E-mail
+2025-05-16 11:32:27,880 - INFO - 4. Adicionando a Senha
+2025-05-16 11:32:31,813 - INFO - 5. Acessando a pagina de marcações do Sênior
+2025-05-16 11:32:41,833 - INFO - 6. Buscando o campo para marcação
+2025-05-16 11:33:12,314 - INFO - 2025-05-16 - O ponto de hoje já foi registrado.
+2025-05-16 11:33:12,314 - ERROR - Variáveis de ambiente para envio de e-mail estão incompletas.
+2025-05-16 11:33:14,436 - INFO - Tempo total de execução: 52.84 segundos
+2025-05-16 11:33:51,043 - INFO - 1. Configurando o navegador
+2025-05-16 11:33:52,349 - INFO - 2. Acessando plataforma
+2025-05-16 11:33:54,241 - INFO - 3. Adicionando o E-mail
+2025-05-16 11:33:57,446 - INFO - 4. Adicionando a Senha
+2025-05-16 11:34:01,302 - INFO - 5. Acessando a pagina de marcações do Sênior
+2025-05-16 11:34:11,321 - INFO - 6. Buscando o campo para marcação
+2025-05-16 11:34:41,427 - INFO - 2025-05-16 - O ponto de hoje já foi registrado.
+2025-05-16 11:34:41,427 - ERROR - Variáveis de ambiente para envio de e-mail estão incompletas.
+2025-05-16 11:34:43,590 - INFO - Tempo total de execução: 52.55 segundos
+2025-05-16 11:38:02,055 - INFO - 1. Configurando o navegador
+2025-05-16 11:38:03,347 - INFO - 2. Acessando plataforma
+2025-05-16 11:38:05,359 - INFO - 3. Adicionando o E-mail
+2025-05-16 11:38:08,488 - INFO - 4. Adicionando a Senha
+2025-05-16 11:38:11,583 - INFO - 5. Acessando a pagina de marcações do Sênior
+2025-05-16 11:38:21,605 - INFO - 6. Buscando o campo para marcação
+2025-05-16 11:38:51,685 - INFO - 2025-05-16 - O ponto de hoje já foi registrado.
+2025-05-16 11:38:54,676 - INFO - E-mail enviado com sucesso.
+2025-05-16 11:38:56,824 - INFO - Tempo total de execução: 54.77 segundos
+2025-05-16 11:40:59,950 - INFO - 1. Configurando o navegador
+2025-05-16 11:41:01,281 - INFO - 2. Acessando plataforma
+2025-05-16 11:41:03,135 - INFO - 3. Adicionando o E-mail
+2025-05-16 11:41:06,265 - INFO - 4. Adicionando a Senha
+2025-05-16 11:41:09,368 - INFO - 5. Acessando a pagina de marcações do Sênior
+2025-05-16 11:41:19,388 - INFO - 6. Buscando o campo para marcação
+2025-05-16 11:41:49,502 - INFO - 2025-05-16 - O ponto de hoje já foi registrado.
+2025-05-16 11:41:52,507 - INFO - E-mail enviado com sucesso.
+2025-05-16 11:41:54,700 - INFO - Tempo total de execução: 54.75 segundos
+2025-05-16 11:42:51,364 - INFO - 1. Configurando o navegador
+2025-05-16 11:42:52,680 - INFO - 2. Acessando plataforma
+2025-05-16 11:42:54,658 - INFO - 3. Adicionando o E-mail
+2025-05-16 11:42:57,783 - INFO - 4. Adicionando a Senha
+2025-05-16 11:43:00,876 - INFO - 5. Acessando a pagina de marcações do Sênior
+2025-05-16 11:43:10,889 - INFO - 6. Buscando o campo para marcação
+2025-05-16 11:43:41,014 - INFO - 2025-05-16 - O ponto de hoje já foi registrado.
+2025-05-16 11:43:43,924 - INFO - E-mail enviado com sucesso.
+2025-05-16 11:43:46,040 - INFO - Tempo total de execução: 54.68 segundos
+2025-05-16 11:44:22,203 - INFO - 1. Configurando o navegador
+2025-05-16 11:44:23,541 - INFO - 2. Acessando plataforma
+2025-05-16 11:44:25,530 - INFO - 3. Adicionando o E-mail
+2025-05-16 11:44:28,654 - INFO - 4. Adicionando a Senha
+2025-05-16 11:44:31,756 - INFO - 5. Acessando a pagina de marcações do Sênior
+2025-05-16 11:44:41,798 - INFO - 6. Buscando o campo para marcação
+2025-05-16 11:44:42,072 - INFO - 7. Criando as marcações para adicionar os horários e justificativas
+2025-05-16 11:44:51,166 - INFO - 8. Adicionando horários e justificativas
+2025-05-16 11:44:58,397 - INFO - 9. Salvando as alterações
+2025-05-16 11:44:58,491 - INFO - 2025-05-16 - ['08:03', '12:00', '13:00', '19:00'] - Trabalho Externo
+2025-05-16 11:45:01,687 - INFO - E-mail enviado com sucesso.
+2025-05-16 11:45:03,798 - INFO - Tempo total de execução: 41.60 segundos
+2025-05-16 11:45:48,125 - INFO - 1. Configurando o navegador
+2025-05-16 11:45:49,411 - INFO - 2. Acessando plataforma
+2025-05-16 11:45:51,569 - INFO - 3. Adicionando o E-mail
+2025-05-16 11:45:54,759 - INFO - 4. Adicionando a Senha
+2025-05-16 11:45:57,884 - INFO - 5. Acessando a pagina de marcações do Sênior
+2025-05-16 11:46:07,931 - INFO - 6. Buscando o campo para marcação
+2025-05-16 11:46:38,437 - INFO - 2025-05-16 - O ponto de hoje já foi registrado.
+2025-05-16 11:46:41,381 - INFO - E-mail enviado com sucesso.
+2025-05-16 11:46:43,510 - INFO - Tempo total de execução: 55.38 segundos
