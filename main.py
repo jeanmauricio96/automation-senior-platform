@@ -80,7 +80,10 @@ def main():
     start_time = time.time()
 
     chrome_options = Options()
-    chrome_options.add_argument("--headless=new")
+    ## chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument('--disable-extensions')
+    chrome_options.add_argument('--disable-infobars')
+    chrome_options.add_argument('--disable-dev-shm-usage')
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--disable-software-rasterizer")
     chrome_options.add_argument("--disable-dev-shm-usage")
@@ -157,11 +160,15 @@ def main():
             return base + timedelta(minutes=aleatorio)
 
         entrada = gerar_horario("08:00", 10)
-        saida_almoco = gerar_horario("12:00", 10)
+
+        saida_almoco_padrao = gerar_horario("12:00", 10)
+        limite_saida_almoco = entrada + timedelta(hours=4)
+        saida_almoco = min(saida_almoco_padrao, limite_saida_almoco)
+
         retorno_almoco = saida_almoco + timedelta(hours=1)
 
         antes_almoco = saida_almoco - entrada
-        tempo_necessario = timedelta(hours=10, minutes=0) #<========= Carga Horaria (10 horas está no padrão de recuperação de Banco de horas)
+        tempo_necessario = timedelta(hours=10, minutes=0)  # Carga Horaria
         depois_almoco = tempo_necessario - antes_almoco
 
         limite_saida_final = datetime.strptime("19:00", "%H:%M")
@@ -170,6 +177,8 @@ def main():
 
         horarios = [entrada, saida_almoco, retorno_almoco, saida_final]
         horarios_formatados = [h.strftime("%H:%M") for h in horarios]
+
+        logger.info(f"Entrada: {entrada.strftime('%H:%M')} | Saída almoço: {saida_almoco.strftime('%H:%M')} | Retorno: {retorno_almoco.strftime('%H:%M')} | Saída final: {saida_final.strftime('%H:%M')}")
 
         for i, hora in enumerate(horarios_formatados):
             driver.find_element(By.ID, f"marcacaoTime-{i}").send_keys(hora)
