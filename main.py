@@ -121,8 +121,8 @@ def main():
         time.sleep(3)
 
         logger.info('5. Acessando a pagina de marcações do Sênior')
-        driver.get("https://platform.senior.com.br/senior-x/#/Gest%C3%A3o%20de%20Pessoas%20%7C%20HCM/1/res:%2F%2Fsenior.com.br%2Fmenu%2Frh%2Fponto%2Fgestaoponto%2Fcolaborador?category=frame&link=https:%2F%2Fweb32.seniorcloud.com.br:36701%2Fgestaoponto-frontend%2Fuser%2Fredirect%3Factiveview%3Demployee%26portal%3Dg7&withCredentials=true&helpUrl=http:%2F%2Fdocumentacao.senior.com.br%2Fgestao-de-pessoas-hcm%2F6.10.4%2F%23gestao-ponto%2Fnova-interface%2Fapuracao-do-ponto%2Fcolaborador%2Fmeus-acertos-de-ponto.htm&r=0")
-
+        PLATFORM_URL = os.getenv('PLATFORM_URL')
+        driver.get(PLATFORM_URL)
         time.sleep(10)
 
         logger.info('6. Buscando o campo para marcação')
